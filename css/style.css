@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+}
+/*************************************************************************************【Nav style】/
+/*Nav style*/
+#nav {
+  padding: 0;
+  border-bottom: 1px solid rgba(50,50,50,0.05);
+  padding-left: 2em;
+  padding-right: 4em;
+  position: relative;
+}
+#nav > .row {
+  margin: 0;
+}
+.navLogo, .nav_pages {
+  vertical-align: top;
+}
+.nav_logo {
+  cursor: pointer;
+}
+.navUl {
+  padding: 0;
+  margin: 0;
+}
+.navUl > a {
+  color: rgba(130,133,135,1);
+  float: right;
+}
+.navUl > a:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+.navLi {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans",​arial,​sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color:rgb(255,​ 255,​ 255);
+  text-transform: capitalize;
+  text-decoration: none;  
+  line-height: 20px;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+}
+.navLi:hover {
+  background-color: rgba(118,204,30,1);
+}
+
+
+
+
+/*************************************************************************************【Law style】/
+/*law style*/
+#law_wrapper textarea {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.title_wrapper {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.title_wrapper > img {
+  margin-left: -15px;
+}
+#law_content {
+  cursor: pointer;
+  pointer-events: none;
+  padding: 5%;
+}
